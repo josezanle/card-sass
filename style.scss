@@ -1,0 +1,45 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+// con @mixin flex-center declaramos la variable para centrar todo contenido que lo incluya.
+@mixin flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+// con este @mixin wh-size , estamos declarando el porcentaje total del div que lo use , para poder centrar el contenido.
+@mixin wh-size{
+    width: 100%;
+    height: 100%;
+}
+
+// body
+body{
+    background: aquamarine;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Open Sans', sans-serif;
+
+    @include flex-center();
+
+    .card{
+        @include flex-center();
+        width: 13em;
+        height: 16em;
+        background: white;
+        border-radius: 1em;
+        padding: .5em;
+        box-shadow:.5em .5em .4em hsla(0, 0%, 0%, 0.486);
+    }
+}
+// secciones
+@import './top';
+@import './bottom';
+
+
+
+

@@ -1,0 +1,24 @@
+.bottom{
+    @include flex-center();
+    @include wh-size();
+    flex: 1;
+    margin-top: .4em;
+
+    h3{
+        color: rgb(45, 105, 105);
+        margin-top: .1em;
+
+     }
+     p{
+        line-height: 1.3em;
+     }
+     p::first-line{
+        color: rgb(50, 168, 168);
+    }
+    p::first-letter{
+        color: rgb(50, 168, 168);
+        font-size: 1.5em;
+        font-weight: 800;
+    }
+
+}

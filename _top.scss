@@ -1,0 +1,11 @@
+.top{
+    @include wh-size();
+    background: url(pexels-alise-alinari-3257307.jpg) center no-repeat;
+    background-size: cover;
+    flex: 3;
+    border-radius: .5em;
+        i{
+            color: white;
+            margin: .4em;
+        }
+}

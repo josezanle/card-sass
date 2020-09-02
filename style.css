@@ -1,0 +1,107 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  background: aquamarine;
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Open Sans', sans-serif;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+}
+
+body .card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  width: 13em;
+  height: 16em;
+  background: white;
+  border-radius: 1em;
+  padding: .5em;
+  -webkit-box-shadow: 0.5em 0.5em 0.4em rgba(0, 0, 0, 0.486);
+          box-shadow: 0.5em 0.5em 0.4em rgba(0, 0, 0, 0.486);
+}
+
+.top {
+  width: 100%;
+  height: 100%;
+  background: url(pexels-alise-alinari-3257307.jpg) center no-repeat;
+  background-size: cover;
+  -webkit-box-flex: 3;
+      -ms-flex: 3;
+          flex: 3;
+  border-radius: .5em;
+}
+
+.top i {
+  color: white;
+  margin: .4em;
+}
+
+.bottom {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column;
+          flex-flow: column;
+  width: 100%;
+  height: 100%;
+  -webkit-box-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
+  margin-top: .4em;
+}
+
+.bottom h3 {
+  color: #2d6969;
+  margin-top: .1em;
+}
+
+.bottom p {
+  line-height: 1.3em;
+}
+
+.bottom p::first-line {
+  color: #32a8a8;
+}
+
+.bottom p::first-letter {
+  color: #32a8a8;
+  font-size: 1.5em;
+  font-weight: 800;
+}
+/*# sourceMappingURL=style.css.map */
